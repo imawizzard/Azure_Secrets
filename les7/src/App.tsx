@@ -6,7 +6,9 @@ function App() {
   return (
     <div
       className="App"
-      style={{ background: process.env.BACKGROUND_COLOR || "" }}
+      style={{
+        backgroundColor: process.env.REACT_APP_BACKGROUND_COLOR || "yellow",
+      }}
     >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
